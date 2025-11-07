@@ -20,5 +20,8 @@ def get_info():
             student_dict[key] = value # Store the input in the dictionary
     return student_dict # Return the populated dictionary
 
+
 # Function call to collect student information
 Studentinfo = get_info()
+print("\nStudent Information:")
+print(Studentinfo)
